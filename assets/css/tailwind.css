@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Noto Sans", system-ui, sans-serif;
+  }
+
+  .container {
+    @apply max-w-[1535px] xl:max-w-[1279px] lg:max-w-[1023px] md:max-w-[767px] sm:max-w-[639px];
+  }
+}
+
+@layer components {
+}
+@layer utilities {
+}
